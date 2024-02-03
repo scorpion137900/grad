@@ -1,0 +1,254 @@
+<mxfile host="app.diagrams.net" modified="2024-02-03T17:48:03.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BGNq3HX8zkL4PABWF3FC" version="23.1.1" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="270" y="90" width="100" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="Server&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="425" y="90" width="100" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Auth Checker" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="410" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-9" value="Login Success" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;dashed=1;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="420" y="210" />
+            </Array>
+            <mxPoint x="330" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-4" value="" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;endFill=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="VlOtD4SCyk70JFZ1rw-3-26">
+          <mxGeometry x="-0.1795" relative="1" as="geometry">
+            <mxPoint x="185" y="600" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="320" y="450" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-6" value="Interactive Ai Polls" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="710" y="90" width="100" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-8" value="Cancer Detection Model" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="90" width="100" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-3" value="Enter Login Data" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" target="aM9ryv3xv72pqoxQDRHE-2" edge="1" source="VlOtD4SCyk70JFZ1rw-3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="160" as="sourcePoint" />
+            <mxPoint x="240" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-11" value="Login Process" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-13" value="&amp;nbsp;Routes Required auth&amp;nbsp;&lt;br&gt;is opened" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="60" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="195" y="60" />
+            </Array>
+            <mxPoint x="120" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-14" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;dashed=1;endFill=0;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-11">
+          <mxGeometry x="0.0244" y="-10" relative="1" as="geometry">
+            <mxPoint x="430" y="80" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="80" />
+            </Array>
+            <mxPoint x="20" y="80" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="Login Failed" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="VlOtD4SCyk70JFZ1rw-3-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="110" />
+            </Array>
+            <mxPoint x="405" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-15" value="If Login sUCCESS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="VlOtD4SCyk70JFZ1rw-3-11">
+          <mxGeometry x="20" y="-7" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-21" value="ELSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="VlOtD4SCyk70JFZ1rw-3-11">
+          <mxGeometry x="20" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-25" value="Display Error" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="205" y="130" />
+            </Array>
+            <mxPoint x="255" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-27" value="" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;endFill=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="VlOtD4SCyk70JFZ1rw-3-2" target="VlOtD4SCyk70JFZ1rw-3-26">
+          <mxGeometry x="-0.1795" relative="1" as="geometry">
+            <mxPoint x="185" y="600" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="185" y="150" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-29" value="upload Photo For Model" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="354.65999999999997" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="265" y="354.65999999999997" />
+            </Array>
+            <mxPoint x="325" y="354.65999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-30" value="Verify that it is a picture of the &lt;br&gt;&amp;nbsp;mouth&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="415" y="370" />
+            </Array>
+            <mxPoint x="475" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-31" value="Image Validity" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="570" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-32" value="Render The Response" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="79.31" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="195" y="79.31" />
+            </Array>
+            <mxPoint x="120" y="79.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-33" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;dashed=1;endFill=0;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry x="0.0244" y="-10" relative="1" as="geometry">
+            <mxPoint x="540" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="90" />
+            </Array>
+            <mxPoint x="20" y="90" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-34" value="Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="505" y="60" />
+            </Array>
+            <mxPoint x="555" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-35" value="if it&#39;s apicture of mouth&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry x="20" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-36" value="ELSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry x="20" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-37" value="Display Error" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="205" y="140" />
+            </Array>
+            <mxPoint x="255" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-38" value="Detect oral cancer" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="40" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="495" y="40" />
+            </Array>
+            <mxPoint x="555" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-39" value="Log The response and &lt;br&gt;send to UI" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="70" />
+            </Array>
+            <mxPoint x="395" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-41" value="Response with &lt;br&gt;Validation Errors" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="130" />
+            </Array>
+            <mxPoint x="405" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="VlOtD4SCyk70JFZ1rw-3-31">
+          <mxGeometry x="545" y="-10" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-45" value="answer Polls" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" target="VlOtD4SCyk70JFZ1rw-3-6">
+          <mxGeometry x="-0.644" relative="1" as="geometry">
+            <mxPoint x="170" y="580" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="255" y="580" />
+            </Array>
+            <mxPoint x="315" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="755" y="550" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-50" value="Generate Insights" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="VlOtD4SCyk70JFZ1rw-3-7">
+          <mxGeometry x="-0.6" relative="1" as="geometry">
+            <mxPoint x="480" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="575" y="600" />
+            </Array>
+            <mxPoint x="625" y="600" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-51" value="Log The response and &lt;br&gt;send to UI" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="415" y="620" />
+            </Array>
+            <mxPoint x="465" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlOtD4SCyk70JFZ1rw-3-52" value="Render Result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="275" y="630" />
+            </Array>
+            <mxPoint x="325" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
